@@ -1,0 +1,20 @@
+{
+  "name": "codebridger-project",
+  "version": "1.0.0",
+  "description": "پروژه ساده برای یادگیری",
+  "main": "script.js",
+  "scripts": {
+    "start": "live-server",
+    "build": "mkdir dist && copy index.html dist\\ && copy script.js dist\\ && copy styles.css dist\\"
+  },
+  "keywords": [
+    "یادگیری",
+    "وب",
+    "تمرین"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+} 
